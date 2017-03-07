@@ -1,8 +1,6 @@
 #From https://github.com/magdesign/PocketVJ-CP-v3
 #General
 apt-get -y install lxde-core lxterminal lxappearance xinit lightdm ntfs-3g python-pexpect figlet firmware-ralink hostapd isc-dhcp-server lighttpd  php5-common php5-cgi php5 php5-mysql screen fbi ttf-mscorefonts-installer mediainfo gparted php5-cli iptables xtightvncviewer imagemagick dosfstools exfat-utils exfat-fuse hfsplus hfsprogs hfsutils xdotool expect expect-dev avahi-daemon libavahi-compat-libdnssd-dev feh libjpeg8 libjpeg8-dev libao-dev avahi-utils libavahi-compat-libdnssd-dev libva-dev youtube-dl python-smbus mpg321 mpg123 libreoffice-impress rc-gui python-pip iceweasel python-dbus xpdf x11-xserver-utils libncurses5-dev shellinabox tk okular mountusb 
-#GIT
-apt-get -y install git-core
 #Remote
 apt-get -y install samba samba-common-bin
 #Editor
