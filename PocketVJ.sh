@@ -9,4 +9,6 @@ apt-get -y install vim
 apt-get -y install libgstreamer0.10-0 libgstreamer0.10-dev gstreamer0.10-tools gstreamer0.10-plugins-base libgstreamer-plugins-base0.10-dev gstreamer0.10-plugins-good gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad libgstreamer-plugins-base1.0-dev gstreamer1.0
 #Python Stuffs
 apt-get -y install pip install pjlink python-osc svgtools svgpathtools svgwrite
-#
+
+#PocketVJ
+git clone https://github.com/magdesign/PocketVJ-CP-v3.git
