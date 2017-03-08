@@ -20,3 +20,13 @@ fi
 if [ ! -d "omxplayer-sync" ]; then
   git clone https://github.com/turingmachine/omxplayer-sync.git
 fi
+
+#OFX
+if [ ! -d "of_v0.9.8_linuxarmv7l_release" ]; then
+  wget http://openframeworks.cc/versions/v0.9.8/of_v0.9.8_linuxarmv7l_release.tar.gz
+  tar xvf of_v0.9.8_linuxarmv7l_release.tar.gz
+  cd of_v0.9.8_linuxarmv7l_release/scripts/linux/debian/
+  sudo ./install_codecs.sh
+  sudo ./install_dependencies.sh
+  cd -
+fi
