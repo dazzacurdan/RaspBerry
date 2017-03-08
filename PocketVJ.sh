@@ -12,3 +12,6 @@ apt-get -y install pip install pjlink python-osc svgtools svgpathtools svgwrite
 
 #PocketVJ
 git clone https://github.com/magdesign/PocketVJ-CP-v3.git
+
+#OMX-Player
+git clone https://github.com/turingmachine/omxplayer-sync.git
